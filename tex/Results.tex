@@ -149,7 +149,7 @@ When we trained the Cannon 2 on the amplitude and phase information (see section
 \pagebreak
 \subsection{Random forest analysis}
 \label{sec:RandomForest}
-For implementation of the random forest regression algorithm, we decided to implement a simplified frequency shift in both the real and imaginary components of the Fourier transform. Rather than use the more complex frequency multiplication, which required interpolation of the signals,  a frequency bin shifting algorithm was used (sectioin~\ref{sec:RFsetyp}). Leave one out cross-validation was not performed in this section  as a method was required to calculate the frequency shift to reverse for a waveform excluded from training set, and this was a task set for future work.  The initial random seed was kept fixed in this section. 
+For implementation of the random forest regression algorithm, we decided to implement a simplified frequency shift in both the real and imaginary components of the Fourier transform. Rather than use the more complex frequency multiplication, which required interpolation of the signals,  a frequency bin shifting algorithm was used (section~\ref{sec:PCAScaled}). Leave one out cross-validation was not performed in this section  as a method was required to calculate the frequency shift to reverse for a waveform excluded from training set, and this was a task set for future work.  The initial random seed was kept fixed in this section. 
 \subsubsection{Inferred waveforms}
 Figure~\ref{fig:RFRReImAPR4-q10-M1275} shows the waveform inferred from the random forest algorithm trained on the real and imaginary parts of the APR4/1.275M$_\odot$ with frequency bin shifting:
 \begin{figure}[H]
