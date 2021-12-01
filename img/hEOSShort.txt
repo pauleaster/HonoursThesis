@@ -1,0 +1,1 @@
+Plot of simulated $h_{+}(t)$ waveforms at 50Mpc.

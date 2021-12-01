@@ -1,0 +1,6 @@
+List of neutron star parameters for the numerical relativity waveforms. $C$ is the compactness,
+            $J$ is the total angular momentum at the initial separation, $M_{ADM}$ is the Arnowitt, Deser and Misner mass, 
+            $\bar{M}_b$ is the mean baryonic mass, $\bar{k}_2$ is the dimensionless mean $l=2$ tidal Love number, 
+            MoI is the dimensionless moment of inertial at infinite separation, $\bar{\Lambda}$ is the dimensionless
+            tidal deformability, $f_{cont}$, is the contact frequency, and $f_{peak-j}$ is frequency of maximum post-
+            merger Fourier spectrum, $f_{orb}$ is the orbital frequency at initial separation. % edited

@@ -1,0 +1,1 @@
+BNS merger rate as a function of component masses as determined by \cite{abbott2016upper}. The axis variables are the two component masses in solar mass units, the values plotted in the regions are the 90\% confidence limits in units of $10^3$Gpc$^{-3}$yr$^{-1}$.

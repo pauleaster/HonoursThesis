@@ -1,0 +1,64 @@
+\ProvidesPackage{mystyle}
+\usepackage[latin1]{inputenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{mathtools}
+\usepackage{graphicx}
+\usepackage{listings}
+\lstloadlanguages{[5.2]Mathematica}
+\newcommand{\mathsym}[1]{{}}
+\newcommand{\unicode}[1]{{}}
+
+\usepackage{caption}
+\usepackage[table,usenames,dvipsnames]{xcolor}
+%\usepackage[dvipsnames]{xcolor}
+\usepackage{booktabs}
+\usepackage{caption}
+\usepackage{pgf,tikz}
+\usetikzlibrary{arrows}
+\usepackage{lastpage}
+\usepackage{float}
+%\usepackage[compact]{titlesec}
+\usepackage{titlesec}
+\usepackage{pdfpages}
+\graphicspath{{./img/}}
+\setlength{\parindent}{55pt}
+%\setlength{\parskip}{36pt}
+%\usepackage{undertilde}
+\linespread{2}
+\titlespacing\section{0pt}{0pt}{0pt}
+\titlespacing\subsection{0pt}{0pt}{0pt}
+\titlespacing\subsubsection{0pt}{0pt}{0pt}
+\definecolor{uuuuuu}{rgb}{0.266666666667,0.266666666667,0.266666666667}
+\definecolor{qqzzqq}{rgb}{0.,0.6,0.}
+\definecolor{ffqqqq}{rgb}{1.,0.,0.}
+\definecolor{qqqqff}{rgb}{0.,0.,1.}
+\definecolor{disabled}{rgb}{0.84, 0.87, 0.9}
+\usepackage[margin=2.5cm]{geometry}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\lhead{}
+\rhead{}
+\cfoot{Page \thepage\ of \pageref{LastPage}}
+
+%\setlength{\mathindent}{0pt}
+%
+\renewcommand*{\familydefault}{\sfdefault}
+% Control TOC and LOF font size
+\AtBeginDocument{
+		
+	\addtocontents{toc}{\large}
+	\addtocontents{lof}{\large}
+	
+}
+
+% Control Heading Font Size
+\usepackage{xpatch}
+\makeatletter
+\xpatchcmd{\tableofcontents}{\contentsname \@mkboth}{\Large\contentsname \@mkboth}{}{}
+\xpatchcmd{\listoffigures}{\chapter *{\listfigurename }}{\chapter *{\Large\listfigurename }}{}{}
+\makeatother
+
+\title{Torres equation inconsistency}
+\author{Paul Easter}

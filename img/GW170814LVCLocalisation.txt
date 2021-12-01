@@ -1,0 +1,1 @@
+The sky localisation for GW170814 with LIGO only is shown in blue, whereas the sky localisation with Virgo included is shown in yellow. The localisation with Virgo operating is significantly less \citep{GW170814SkyLocalisation}.

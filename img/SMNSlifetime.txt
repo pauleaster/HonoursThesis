@@ -1,0 +1,1 @@
+ Collapse time probability distribution from \cite{ravilasky2014}, vertical axis shows probability of collapse, the horizontal axis shows the collapse time in seconds. The probability distribution for three EOS are plotted: GM1 solid, APR dashed and AB-N dotted. Four observational collapse times from \citep{2013MNRAS.430.1061R} are shown for short gamma ray bursts remnants.

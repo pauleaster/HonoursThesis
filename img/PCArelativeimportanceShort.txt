@@ -1,0 +1,1 @@
+Schematic showing the relative importance of adjacent principal components.

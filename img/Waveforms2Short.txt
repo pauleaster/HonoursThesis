@@ -1,0 +1,2 @@
+Parameters for waveforms: $C$, $J$, $M_{ADM}$, $M_b$, $\bar{k}_2$, MoI, $\bar{\Lambda}$, $f_{cont}$, 
+                    $f_{peak-j}$. % WaveformDataLatexTable.ipynb

@@ -1,0 +1,2 @@
+Parameters for waveforms: $M_{TOV}$, $M_{total}$, $R_{TOV}$, $\bar{R}$, $M_1$, 
+            $M_2$, $\bar{M}$, $q$, $\kappa_2^T$.% WaveformDataLatexTable.ipynb

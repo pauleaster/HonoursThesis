@@ -1,0 +1,2 @@
+Leave one out cross validation time response of waveform ALF2-q10-M1225 and corresponding error signal. The total SNR value for this signal is 2.33 and the residual SNR value is 10.05. The black trace is the original strain waveform and the blue trace is the reconstructed
+        waveform. This signal is a poor representation of the original signal.

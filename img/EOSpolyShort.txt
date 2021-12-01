@@ -1,0 +1,1 @@
+Table showing the polytropic constants used neutron star EOS.

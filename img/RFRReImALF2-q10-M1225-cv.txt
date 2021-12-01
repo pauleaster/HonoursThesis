@@ -1,0 +1,7 @@
+Frequency and time response of waveform ALF2-q10-M1225 using random forest regression with leave one out
+            cross-validation. The total SNR for this signal is 2.33 and
+            the residual SNR is 2.45. Plot~a)~is the calculated magnitude of the frequency response, the black
+            trace is the original signal and the blue trace is the cross validated inferred signal. Plot~b)~is the 
+            calculated phase response, the original phase is the black trace and the inferred phase is blue. 
+            Plot~c)~is the time response of the signal with the original time series signal is the black trace, 
+            and the inferred signal is the blue trace. % rfr_reim_CV.ipynb

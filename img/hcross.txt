@@ -1,0 +1,2 @@
+NOT USED 
+Plot showing the time evolution of the $h_{\times}$ polarisation of the gravitational strain. This plot follows a similar contraction and elongation process as per figure~\ref{fig:hplus}, however, the axes of compression and expansion now lie along $y = \pm x$ instead of the $x$ and $y$ axes.

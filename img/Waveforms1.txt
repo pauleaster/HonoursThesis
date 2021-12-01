@@ -1,0 +1,8 @@
+List of neutron star parameters for the numerical relativity waveforms. $M_{TOV}$ is the maximum
+        non-rotating neutron star mass in $M_\odot$, $M_{total}$ is the total mass of both neutron stars in 
+        $M_{\odot}$, $R_{TOV}$ is the radius of a non-rotating neutron star at maximum mass,$\bar{R}$ is the mean 
+        radius of the neutron star in km, $M_1$ and $M_2$ are the masses of the constituent neutron stars in
+        $M_\odot$, $\bar{M}$ is the mean mass of both neutron stars, $q$ is the mass ratio of $M_1/M_2$,
+        $\kappa_2^T$ is the total $l=2$ coupling constant. All of these values with the exception of $\kappa_2^T$
+        were obtained from \cite{Takami2015}. $\kappa_2^T$~was calculated from equation~\ref{eq:kappa} for equal
+        mass systems. % WaveformDataLatexTable.ipynb

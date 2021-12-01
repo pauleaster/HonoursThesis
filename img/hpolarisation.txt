@@ -1,0 +1,1 @@
+Time evolution of the $h_{\times}$ (top) and $h_+$ (bottom) polarisations of the gravitational strain. Time progresses left to right, from a) $t=0,\ \theta=0$ to e) $t=T,\ \theta=\omega T=2\pi$, where $T$ is the period and  $\theta$ is the phase of the gravitational wave strain.

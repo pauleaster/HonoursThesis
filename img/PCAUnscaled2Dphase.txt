@@ -1,0 +1,5 @@
+Three component PCA of the fourier transform phase projected onto two
+            dimensions with no frequency scaling. Each equation of state is designated by a different colour and each mass value
+            a different marker. A line connects adjacent mass values for a given equation of state for equal
+            mass ratio values. The two points with non-equal mass ratio are not connected on these lines
+            and are designated as x on the plots. % PCAUnscaled2D.ipynb

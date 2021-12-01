@@ -1,0 +1,9 @@
+Frequency and time response of waveform APR4-q10-M1275 using random forest regression trained on the
+            real and imaginary components of the waveforms using frequency bin shifting for alignment. The total SNR 
+            for this signal is 2.09 and
+            the residual SNR is 0.71. These plots do not implement leave one out cross-validation.
+            Plot~a)~is the calculated magnitude of the frequency response, the black
+            trace is the original signal and the blue trace is the inferred signal. Plot~b)~is the 
+            calculated phase response, the original phase is the black trace and the inferred phase is blue. 
+            Plot~c)~is the time response of the signal with the original time series signal is the black trace, 
+            and the inferred signal is the blue trace. % rfr_pe.ipynb

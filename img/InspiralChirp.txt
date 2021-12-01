@@ -1,0 +1,1 @@
+Gravitational strain and time varying frequency spectrum of the merger GW150914 as measured at Hanford and Livingston. The strain frequency increases as the distance between the two black holes decrease, resulting in a `chirp' signal. Image from \cite{GW150914}. 

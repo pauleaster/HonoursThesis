@@ -1,0 +1,6 @@
+Three component PCA of the Fourier transform amplitude with frequency scaling. Each equation of state 
+            is designated by a different colour and each mass value
+            a different marker. An appropriately coloured line connects adjacent mass values for a given equation 
+            of state for equal mass ratio values. The two points with non-equal mass ratio are not connected on these lines
+            and are designated as x on the plots. Faint vertical lines are drawn to locate each point in the two dimensional
+            space generated from principal axes 1 and 2. % PCAScaled3D.ipynb

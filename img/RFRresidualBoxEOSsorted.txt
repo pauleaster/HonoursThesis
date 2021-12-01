@@ -1,0 +1,6 @@
+Box plot of the residual SNR for each waveform using random forest regression without cross-validation. 
+    The plots
+    have been sorted by equation of state and mass combinations. The coloured box
+    indicates the interquartile range, the thick vertical black line indicates the median value. The thin 
+    horizontal lines pass from the minimum value to the maximum values, excluding outliers. The outliers are
+    indicated as round circles on the plot. % RFRRandomseed.ipynb
