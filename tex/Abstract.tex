@@ -1,0 +1,9 @@
+
+
+\section*{Abstract} % this removes the numbering from the section
+\addcontentsline{toc}{section}{\numberline{}Abstract} % this adds the section into the table of contents even though it doesn't have a number
+
+	\color{black}
+Detection of gravitational waves from the remnant of a binary neutron star merger will require the generation of a large bank of template waveforms. Numerical relativity methods can generate gravitational wave strain waveforms, but this process is computationally intensive taking around 100,000 CPU hours per waveform. We investigated using machine learning algorithms to assist in this task. We initially used principal components analysis, an unsupervised learning algorithm on frequency scaled and frequency unscaled data. This was to obtain an intuitive idea of the data involved and to determine which data we wished to use for the supervised machine learning tasks. We then implemented the  machine learning algorithm The Cannon 2 with unscaled frequency data and used this to predict output spectra. This algorithm performed reasonably well without cross-correlation, but the residual SNR of the reconstructed signals ranged from 3.0 to 25.0 when leave one out cross validation was implemented. The goal for the residual SNR was less than 1.0. We finally implemented a random forest machine learning algorithm, which performed well in predicting the output spectrum, with residual SNR varying from 0.6 to 1.5. This was not implementing leave one out cross validation though, and could not be directly compared to the results from The Cannon 2. However, these training and prediction algorithms are fast, taking only a few seconds to operate on all 25 waveforms.
+
+	\pagebreak

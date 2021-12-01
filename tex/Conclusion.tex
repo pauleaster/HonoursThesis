@@ -1,0 +1,15 @@
+\section{Conclusion}
+We investigated the possibility of using machine learning algorithms to generate a large bank of template waveforms to enable the post-merger detection of BNS, we use three types of machine learning analysis to investigate this possibility. The first algorithm was principal components analysis an unsupervised learning algorithm (section~\ref{sec:PCAresults}). We then investigated The Cannon 2, a supervised machine learning algorithm which used a form of L1 regularisation to predict outcomes, this algorithm was used without cross-validation (section~\ref{sec:TheCannonEntireTrainingSet}) and with cross-validation (section~\ref{sec:TheCannonLOOCV}). Finally, we used a random forest supervised machine learning algorithm without cross-validation (section \ref{sec:RandomForest}). \par
+
+
+The first algorithm used was principal components analysis which is an unsupervised learning algorithm. We projected this down into a three dimensional space and a two dimensional space to see if any intuitive findings could be obtained. We found that it was difficult to determine any visual correlation when frequency scaling was used, but without frequency scaling there was a visual correlation between the first principal component and the frequency corresponding to the peak spectral response for a given waveform. \par
+
+The Cannon 2 algorithm performed reasonable well without leave one out cross-validation, but still had difficulty training to both the amplitude and phase. When leave one out cross-validation was implemented it performed quite poorly with residual SNR values around 3.0-25, when the desired result was a residual SNR of  less than 1.0. Training on the real and imaginary parts of the spectra did not help the results and was not continued. \par
+
+The signals generated from the random forest algorithm were quite promising, but we could not implement leave one out cross validation in the given time frame and further work is required. An algorithm has been generated to perform leave one out cross-correlation and can be used for future work. Finally, the computational time for these algorithms are a mere fraction of the computational time to generate numerical relativity waveforms. Furthermore, these waveforms may be required to be able to detect any post-merger remnant from the gravitational-waves of a BNS merger. It is therefore worth perservering on this task to generate BNS post-merger waveforms from machine learning.\par
+It is also possible that  by adding in more numerical relativity waveforms, we can achieve better results than has been specified here, and that should also be followed up in future work.
+
+
+
+\section{Acknowledgements}
+A big thank you goes to both my supervisors for all the time and effort you have put into this project. Another big thank you should go to my family as well who I have spent little time with over the last few months. And of course stack exchange for all those cryptic python problems.
